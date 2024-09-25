@@ -110,7 +110,7 @@ export default function Home() {
               smooth={true}
               className="hover:text-blue-500"
             >
-              Process
+              hgfvbt
             </ScrollLink>
 
             <ScrollLink
