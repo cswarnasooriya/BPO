@@ -42,7 +42,7 @@ function LetsMakeThingsHappenSection() {
       <div className="absolute -top-8 right-8 hidden md:block">
         <Image
           src="/images/proposal_illustration.png"
-          alt="proposal illustration"
+          alt="proposal illustration" 
           width={300}
           height={300}
         />

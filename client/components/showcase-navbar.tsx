@@ -42,6 +42,9 @@ xl:w-4/5
 
       <div className="absolute right-1/2 translate-x-1/2 transform">
         <div className="hidden md:flex gap-x-10 2xl:gap-x-10 items-center text-gray-700 font-medium text-lg ">
+        <Link href="/" className="hover:text-blue-500">
+            Home
+          </Link>
           <Link
             href="/showcase"
             className="
@@ -67,7 +70,7 @@ xl:w-4/5
       <div className="flex items-center gap-x-4">
       <a href="tel:5193191562" className="hidden xl:flex">
               <button className="px-4 py-2  rounded-md flex items-center gap-x-3 ">
-            (519)-319-1562
+            ME
               </button>
             </a>
 
