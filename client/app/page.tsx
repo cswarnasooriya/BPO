@@ -21,41 +21,24 @@ import { Video } from "lucide-react";
 
 const services = [
   {
-    icon: "/images/s_6.png",
-    title: "Web Design + Development",
+    icon: "/images/Services_1.jpg",
+    title: "Finance & Accounting",
     description:
-      "Take your business to the next level with our web design and development services",
+      "In today’s fast-paced business environment, managing finances efficiently is crucial for success. Our Finance and Accounting BPO services provide businesses with the expertise and technology to streamline operations, enhance accuracy, and ensure compliance. Whether you're a small start-up or a large corporation, we tailor our solutions to meet your specific needs.",
   },
   {
-    icon: "/images/s_1.png",
-    title: "Search Engine Optimization",
+    icon: "/images/Services_2.jpg",
+    title: "IT Support & Data Entry ",
     description:
-      "Get your website to the top of search engine results with our SEO services",
+      " In the current world where everything is moving so fast especially with the introduction of technology it is important for a business to have good IT support and proper handling of data. The Business Process Outsourcing services such as IT Support and Data Entry are designed to make your business more efficient and effective and enable you to accomplish your organizational objectives",
   },
   {
-    icon: "/images/s_5.png",
-    title: "Content Creation",
+    icon: "/images/Services_3.jpg",
+    title: "IT Support & Data Entry ",
     description:
-      "Boost your brand's online presence with our social media marketing services",
+      "In the current world where everything is moving so fast especially with the introduction of technology it is important for a business to have good IT support and proper handling of data. The Business Process Outsourcing services such as IT Support and Data Entry are designed to make your business more efficient and effective and enable you to accomplish your organizational objectives",
   },
-  {
-    icon: "/images/s_3.png",
-    title: "Social Media Marketing",
-    description:
-      "Interact with your customers and increase sales with our email marketing services",
-  },
-  {
-    icon: "/images/s_4.png",
-    title: "Email Marketing",
-    description:
-      "With our content creation services, we help businesses drive results",
-  },
-  {
-    icon: "/images/s_2.png",
-    title: "Pay-Per-Click Advertising",
-    description:
-      "Don't waste money on ineffective advertising. Our PPC services help you reach your target audience",
-  },
+  
 ];
 
 export default function Home() {
@@ -110,7 +93,7 @@ export default function Home() {
               smooth={true}
               className="hover:text-blue-500"
             >
-              Process
+              hgfvbt
             </ScrollLink>
 
             <ScrollLink
@@ -257,13 +240,13 @@ export default function Home() {
 </main>
 
 
-      {/* <Element name="services">
+      {<Element name="services">
         <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto ">
         <h1>
           <WordPullUpDemo />
         </h1>
         <p className="md:text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500">
-        All of our services are designed to help your business stand out 
+        All of our services are to help your business stand out 
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
@@ -285,9 +268,9 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </Element> */}
+      </Element> }
 
-      {/* <section className="py-20">
+       <section className="py-20">
         <ScrollBasedVelocityDemo />
       </section>
 
@@ -374,7 +357,7 @@ export default function Home() {
 
       <section className="my-10 md:py-20 xl:w-4/5 2xl:w-[68%] md:mx-auto">
       <LetsMakeThingsHappenSection />
-      </section> */}
+      </section>
 
       <footer className="bg-[#fafafa] py-10  px-6 md:px-0 md:mx-auto border-t">
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
