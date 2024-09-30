@@ -5,19 +5,8 @@ const ShowcaseNavbar = () => {
   return (
     <div
       className="
-      overflow-hidden
-      p-10
-      
-
-    rounded-[6px]
-    top-5
-    sticky
-    md:mx-auto
-
-    transform 
-    z-50
-xl:w-4/5 
-2xl:w-[68%]
+      overflow-hidden p-10 rounded-[12px] bg-gray-400 top-10 sticky
+    md:mx-auto transform z-50 xl:w-4/5 2xl:w-[90%]
 
    
     bg-white 
@@ -31,13 +20,7 @@ xl:w-4/5
     "
     >
       <Link href="/">
-      <Image
-        src="/logo/logo.webp"
-        alt="Bird Logo"
-        width={1000}
-        height={1000}
-        className="w-28"
-      />
+      <h1 className="text-red-700 font-bold text-5xl">Walkers</h1>
       </Link>
 
       <div className="absolute right-1/2 translate-x-1/2 transform">
@@ -51,13 +34,13 @@ xl:w-4/5
           hover:text-blue-500
           "
           >
-            Showcase
+            Our Services
           </Link>
              <Link href="/" className="hover:text-blue-500">
-            Services
+            About
           </Link>
           <Link href="/" className="hover:text-blue-500">
-        Process
+             Process
           </Link>
           <Link href="/" className="hover:text-blue-500">
             Guarentees
@@ -67,10 +50,10 @@ xl:w-4/5
       </div>
 
 
-      <div className="flex items-center gap-x-4">
-      <a href="tel:5193191562" className="hidden xl:flex">
+      <div className="flex items-center gap-x-4 text-gray-800">
+      <a href="tel:5193191562" className="hidden xl:flex font-bold ">
               <button className="px-4 py-2  rounded-md flex items-center gap-x-3 ">
-            ME
+            +(94) 11 2548961
               </button>
             </a>
 
@@ -90,7 +73,7 @@ xl:w-4/5
        duration-200 
        hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
       >
-        Book a call
+        Hire Us Now
       </Link>
       </div>
     </div>

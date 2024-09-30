@@ -16,46 +16,29 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
-import { Video } from "lucide-react";
+
 
 
 const services = [
   {
-    icon: "/images/s_6.png",
-    title: "Web Design + Development",
+    icon: "/images/Services_1.jpg",
+    title: "Finance & Accounting",
     description:
-      "Take your business to the next level with our web design and development services",
+      "In today’s fast-paced business environment, managing finances efficiently is crucial for success. Our Finance and Accounting BPO services provide businesses with the expertise and technology to streamline operations, enhance accuracy, and ensure compliance. Whether you're a small start-up or a large corporation, we tailor our solutions to meet your specific needs.",
   },
   {
-    icon: "/images/s_1.png",
-    title: "Search Engine Optimization",
+    icon: "/images/Services_2.jpg",
+    title: "IT Support & Data Entry ",
     description:
-      "Get your website to the top of search engine results with our SEO services",
+      " In the current world where everything is moving so fast especially with the introduction of technology it is important for a business to have good IT support and proper handling of data. The Business Process Outsourcing services such as IT Support and Data Entry are designed to make your business more efficient and effective and enable you to accomplish your organizational objectives",
   },
   {
-    icon: "/images/s_5.png",
-    title: "Content Creation",
+    icon: "/images/Services_3.jpg",
+    title: "Zmedia Digital Solutions ",
     description:
-      "Boost your brand's online presence with our social media marketing services",
+      "In the current world where everything is moving so fast especially with the introduction of technology it is important for a business to have good IT support and proper handling of data. The Business Process Outsourcing services such as IT Support and Data Entry are designed to make your business more efficient and effective and enable you to accomplish your organizational objectives",
   },
-  {
-    icon: "/images/s_3.png",
-    title: "Social Media Marketing",
-    description:
-      "Interact with your customers and increase sales with our email marketing services",
-  },
-  {
-    icon: "/images/s_4.png",
-    title: "Email Marketing",
-    description:
-      "With our content creation services, we help businesses drive results",
-  },
-  {
-    icon: "/images/s_2.png",
-    title: "Pay-Per-Click Advertising",
-    description:
-      "Don't waste money on ineffective advertising. Our PPC services help you reach your target audience",
-  },
+  
 ];
 
 export default function Home() {
@@ -67,21 +50,22 @@ export default function Home() {
 //   bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)]
 //    bg-[size:14px_24px]"
   > 
-  <video
-  className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+<video
+  className="absolute top-0 left-0 w-full h-full object-cover -z-10 filter blur-[2px]"
   src="/images/video.mp4"
   autoPlay
   loop
   muted
 />
+
       <Element
         name="top"
-        className="overflow-hidden rounded-[14px] top-5 sticky md:mx-auto z-50 
-   xl:w-4/5 2xl:w-[68%] bg-white flex items-center 
+        className="overflow-hidden rounded-[14px] top-8 sticky md:mx-auto z-50 
+   xl:w-4/5 2xl:w-[90%] bg-gray-200 flex items-center 
    justify-between py-6 px-4 md:px-8 mx-6"
       >
         <Link href={"/"}>
-        <h1 className="text-5xl font-bold text-red-600">Walkers</h1>
+        <h1 className="text-5xl font-bold text-red-700">.Walkers.</h1>
           {/* <Image
             src={"/logo/logo.webp"}
             alt="Logo"
@@ -92,31 +76,39 @@ export default function Home() {
         </Link>
 
         <div className="absolute right-1/2 translate-x-1/2 transform">
-          <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
-            <Link href={"/showcase"} className="hover:text-blue-500">
-              Showcase
+          <div className="hidden md:flex gap-x-16 items-center text-gray-800 font-bold text-lg cursor-pointer">
+            <Link href={"/showcase"} className="hover:text-blue-700 text-lg">
+              Our Services
             </Link>
 
             <ScrollLink
               to="services"
               smooth={true}
-              className="hover:text-blue-500"
+              className="hover:text-blue-500 text-lg"
             >
-              Services
+              Projects
             </ScrollLink>
 
             <ScrollLink
               to="process"
               smooth={true}
-              className="hover:text-blue-500"
+              className="hover:text-blue-500 text-lg"
             >
-              Process
+              About
             </ScrollLink>
 
             <ScrollLink
               to="guarentees"
               smooth={true}
-              className="hover:text-blue-500"
+              className="hover:text-blue-500 text-lg"
+            >
+              Clients
+            </ScrollLink>
+
+            <ScrollLink
+              to="guarentees"
+              smooth={true}
+              className="hover:text-blue-500 text-lg"
             >
               Guarentees
             </ScrollLink>
@@ -124,9 +116,11 @@ export default function Home() {
         </div>
 
         <div className="flex items-center gap-x-4">
-          <a href="tel:519400200" className="hidden lg:flex">
-            <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
-              +(94) 11 5879462
+          <a href="" className="hidden lg:flex">
+            <button className="px-4 py-3 rounded-md flex items-center gap-x-3  border-2 font-bold
+  border-black hover:bg-[#4bf765]  duration-200
+     hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] ">
+              +(94) 77 5879225
             </button>
           </a>
 
@@ -161,7 +155,7 @@ export default function Home() {
     <h1>
       <CoverDemo />
     </h1>
-    <p className="md:text-center text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500">
+    <p className="md:text-center text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-900 font-bold">
       Schedule a call with us to discuss your project and get a quote in minutes
     </p>
 
@@ -176,32 +170,32 @@ export default function Home() {
         href={"/showcase"}
         className="bg-white py-3 px-10 md:px-16 md:text-xl border-4 border-black rounded-[6px] hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)]"
       >
-        Showcase
+        Our Projects
       </Link>
     </div>
 
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-        <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center text-white">
-          <PiCheckBold className="text-xl text-blue-300" />
+        <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center text-black">
+          <PiCheckBold className="text-xl text-blue-600" />
           Design
         </p>
       </BoxReveal>
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-        <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center text-white">
-          <PiCheckBold className="text-xl text-blue-300" />
+        <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center text-black">
+          <PiCheckBold className="text-xl text-blue-600" />
           Development
         </p>
       </BoxReveal>
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-        <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center text-white">
-          <PiCheckBold className="text-xl text-blue-500" />
+        <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center text-black">
+          <PiCheckBold className="text-xl text-blue-600" />
           Marketing
         </p>
       </BoxReveal>
       <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
-        <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center text-white">
-          <PiCheckBold className="text-xl text-blue-500" />
+        <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center text-black">
+          <PiCheckBold className="text-xl text-blue-600" />
           Strategy
         </p>
       </BoxReveal>
@@ -209,7 +203,7 @@ export default function Home() {
 
     <div className="md:flex items-center justify-between gap-y-4 my-10 gap-x-28 mx-auto text-white">
       <div className="md:w-2/5">
-        <h1 className="text-2xl font-medium text-gray-400 w-4/5">
+        <h1 className="text-2xl font-medium text-blue-300  w-4/5">
           Trusted by fast moving brands worldwide
         </h1>
 
@@ -217,7 +211,7 @@ export default function Home() {
           <div>
             <h1 className="text-blue-500 text-3xl md:text-5xl ">
               <NumberTicker value={150} className="text-white"  /> +
-              <p className="text-gray-500 text-sm md:text-md">
+              <p className="text-orange-400 text-sm md:text-md">
                 Happy Clients
               </p>
             </h1>
@@ -228,7 +222,7 @@ export default function Home() {
           <div className="flex-1 min-w-0">
             <h1 className="text-blue-500 text-3xl md:text-5xl whitespace-nowrap overflow-hidden">
               <NumberTicker value={30} className="text-white" /> +
-              <p className="text-gray-500 text-sm md:text-md ">
+              <p className="text-orange-400 text-sm md:text-md ">
                 Projects Completed
               </p>
             </h1>
@@ -238,16 +232,17 @@ export default function Home() {
 
       <section className="overflow-hidden mt-10 md:w-4/5">
         <InfiniteMovingLogos
-          speed="slow"
+          speed="1500"
           direction="left"
           items={[
             {
-              logo: "/logo/logo.webp",
+              logo: "/images/logo.png",
               name: "Logo",
             },
             {
-              logo: "/logo/logo.webp",
+              logo: "/images/logo.png",
               name: "Logo",
+              
             },
           ]}
         />
@@ -257,37 +252,37 @@ export default function Home() {
 </main>
 
 
-      {/* <Element name="services">
-        <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto ">
+      {<Element name="service">
+        <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[75%] md:mx-auto ">
         <h1>
           <WordPullUpDemo />
         </h1>
-        <p className="md:text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500">
-        All of our services are designed to help your business stand out 
+        <p className="md:text-center py-4 md:w-full mx-auto text-xl md:text-2xl text-blue-500">
+        All of our services are to help your business stand out 
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10 mb-10">
             {services.map((service) => (
               <div
                 key={service.title}
-                className="flex flex-col justify-between h-full space-y-4 text-center bg-gray-100 p-4 cursor-pointer hover:scale-105 transition-transform rounded-md"
+                className="flex flex-col justify-between h-full space-y-4 text-center bg-blue-50 p-4 cursor-pointer hover:scale-105 transition-transform rounded-md font-bold"
               >
                 <Image
                   src={service.icon}
-                  width={10000}
-                  height={10000}
-                  className="object-contain bg-gray-100 p-4 w-full h-40 rounded-md"
+                  width={15000}
+                  height={15000}
+                  className="object-contain bg-gray-100 p-4 w-full h-90 rounded-md"
                   alt="image"
                 />
                 <h1 className="text-xl font-medium">{service.title}</h1>
-                <p className="text-gray-500">{service.description}</p>
+                <p className="text-gray-500 text-justify">{service.description}</p>
               </div>
             ))}
           </div>
         </div>
-      </Element> */}
-
-      {/* <section className="py-20">
+      </Element> }
+{/* 
+       <section className="py-20">
         <ScrollBasedVelocityDemo />
       </section>
 
@@ -334,9 +329,9 @@ export default function Home() {
           </div>
 
         </main>
-      </Element>
+      </Element> */}
 
-      <section>
+      {/* <section>
         <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
           <Image
             src={"/logo/logo.webp"}
@@ -366,9 +361,9 @@ export default function Home() {
             </span>
           </div>
         </main>
-      </section>
+      </section> */}
 
-      <Element name="guarentees">
+      {/* <Element name="guarentees">
         <ShootingStarsAndStarsBackgroundDemo />
       </Element>
 
@@ -379,22 +374,23 @@ export default function Home() {
       <footer className="bg-[#fafafa] py-10  px-6 md:px-0 md:mx-auto border-t">
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
           <h1 className="text-3xl md:text-5xl font-medium ">
-            <Image
+            <h1 className="text-red-700">Walkers.</h1>
+            {/* <Image
               src={"/logo/logo.webp"}
               width={10000}
               height={10000}
               className="w-40"
               alt="image"
-            />{" "}
+            />{" "} */}
           </h1>
-          <p className="text-left  text-xl  text-gray-500">+(94) 11 2584795</p>
+          <p className="text-left  text-xl  text-gray-500">+(94) 77 5478225</p>
           <p className="text-left  text-xl  text-gray-500">
             info@walkers.com
           </p>
         </div>
 
         <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2025 Walkers. All Rights Reserved.
+          © 2025 Walkers (PVT) Ltd. All Rights Reserved.
           <Link href="/" className="text-blue-500">
             Terms and Conditions
           </Link>
