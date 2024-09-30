@@ -17,17 +17,18 @@ export function AnimatedShinyTextDemo() {
          py-1 transition ease-out
           hover:text-neutral-600 
           hover:duration-300
-           hover:dark:text-neutral-400">
+           hover:dark:text-neutral-500">
           <div className="
           md:flex
           flex-col-reverse
           md:flex-row
           justify-between
+          
           gap-x-6">
           ⭐{" "}   ⭐{" "}   ⭐{" "}   ⭐{" "}   ⭐
           <div className="flex items-center space-x-2 py-2 md:py-0">
           
-            <span className="text-gray-600 hover:underline cursor-pointer ">
+            <span className="text-gray-800 font-bold hover:underline cursor-pointer ">
              We Are The Best In Sri Lanka
             </span>
           </div>
