@@ -62,6 +62,30 @@ const works = [
     title: "HR & Payroll Services",
     text: "We offer comprehensive human resource and payroll services that help in efficient processing of payrolls, administration of employee benefits and legal compliance thus increasing the level of satisfaction among employees.",
   },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/HR & Payroll Services.jpg",
+    title: "IT Services and Data Input Services",
+    text: "In the current world where everything is moving so fast especially with the introduction of technology it is important for a business to have good IT support and proper handling of data. The Business Process Outsourcing services such as IT Support and Data Entry are designed to make your business more efficient and effective and enable you to accomplish your organizational objectives. ",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/HR & Payroll Services.jpg",
+    title: "Business System Support",
+    text: "Our team will manage your business systems so that they operate in the manner desired in your business. Our services include system installation, system improvement, system maintenance and general system service. Thus, it is possible to avoid the emergence of technical issues that disrupt the work and increase the efficiency of the work performed. ",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/HR & Payroll Services.jpg",
+    title: "IT Help Desk",
+    text: "Our IT help desk is always on call to address any of your technical needs at any given time. Whether it is software issues, hardware issues or network issues, our technical specialists are always ready to fix them as soon as possible so that your team can continue working and be connected. ",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/HR & Payroll Services.jpg",
+    title: "Data Entry",
+    text: "Accuracy is crucial particularly when dealing with data and our data entry services ensure your data is entered and processed to the level of accuracy you need. We handle all your records from customer’s record to sales record so that you are provided with well-organized records for decision making.",
+  },
 ];
 
 export function BlurFadeDemo() {
