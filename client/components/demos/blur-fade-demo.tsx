@@ -91,13 +91,13 @@ const works = [
 export function BlurFadeDemo() {
   return (
     <section id="photos">
-      <div className="grid md:grid-cols-2 gap-8 mt-10 justify-items-center">
+      <div className="grid md:grid-cols-2 gap-x-4 gap-y-[250px] mt-14  justify-items-center">
         {works.map(({ imageUrl, title, text }, idx) => (
           <BlurFade
             key={title}
             delay={0.25 + idx * 0.05}
             inView
-            className={`rounded-lg ${works[idx].background} p-4`}
+            className={`rounded-xl p-6`}
           >
             <Image
               height={10000}
@@ -110,8 +110,11 @@ export function BlurFadeDemo() {
               src={imageUrl}
               alt={`Random stock image ${idx + 1}`}
             />
-            <h3 className="text-lg font-semibold p-4">{title}</h3>
-            <p>{text}</p>
+
+            <h3 className="text-2xl font-semibold p-6">{title}</h3>
+            <p className="text-lg font-[14px] p-6 text-justify my-2 ">{text}</p>
+            
+            
           </BlurFade>
         ))}
       </div>
