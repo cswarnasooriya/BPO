@@ -19,11 +19,11 @@ const Showcase = () => {
         <div className="flex items-center justify-center relative">
           <WordFadeIn
             className="text-3xl pt-20 lg:text-5xl font-semibold max-w-3xl mx-auto md:text-center   z-20  "
-            words="Design & Code That Helps Your Business Grow"
+            words="We Always Trying To Deliver Best And Trending Services"
           />
         </div>
         <p className="md:text-center text-xl md:text-2xl my-6   md:w-4/5 mx-auto text-gray-500">
-          Have a look at some of our recent projects.
+          Have a look at some of our trending projects.
         </p>
 
         <BlurFadeDemo />

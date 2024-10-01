@@ -5,11 +5,11 @@ const ShowcaseNavbar = () => {
   return (
     <div
       className="
-      overflow-hidden p-10 rounded-[12px] bg-gray-400 top-10 sticky
+      overflow-hidden p-10 rounded-[12px] bg-gray-200 top-10 sticky
     md:mx-auto transform z-50 xl:w-4/5 2xl:w-[90%]
 
    
-    bg-white 
+    
     flex 
     items-center
     justify-between py-6
@@ -34,7 +34,7 @@ const ShowcaseNavbar = () => {
           hover:text-blue-500
           "
           >
-            Our Services
+            Services
           </Link>
              <Link href="/" className="hover:text-blue-500">
             About
@@ -51,11 +51,11 @@ const ShowcaseNavbar = () => {
 
 
       <div className="flex items-center gap-x-4 text-gray-800">
-      <a href="tel:5193191562" className="hidden xl:flex font-bold ">
+      {/* <a href="tel:5193191562" className="hidden xl:flex font-bold ">
               <button className="px-4 py-2  rounded-md flex items-center gap-x-3 ">
             +(94) 11 2548961
               </button>
-            </a>
+            </a> */}
 
 
       <Link

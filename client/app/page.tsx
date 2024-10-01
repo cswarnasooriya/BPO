@@ -62,10 +62,10 @@ export default function Home() {
         name="top"
         className="overflow-hidden rounded-[14px] top-8 sticky md:mx-auto z-50 
    xl:w-4/5 2xl:w-[90%] bg-gray-200 flex items-center 
-   justify-between py-6 px-4 md:px-8 mx-6"
+   justify-between py-6 px-4 lg:px-4 md:px-4 mx-10"
       >
         <Link href={"/"}>
-        <h1 className="text-5xl font-bold text-red-700">.Walkers.</h1>
+        <h1 className="text-5xl font-bold text-red-700">Walkers.</h1>
           {/* <Image
             src={"/logo/logo.webp"}
             alt="Logo"
@@ -76,9 +76,9 @@ export default function Home() {
         </Link>
 
         <div className="absolute right-1/2 translate-x-1/2 transform">
-          <div className="hidden md:flex gap-x-16 items-center text-gray-800 font-bold text-lg cursor-pointer">
+          <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-bold text-lg cursor-pointer">
             <Link href={"/showcase"} className="hover:text-blue-700 text-lg">
-              Our Services
+              Services
             </Link>
 
             <ScrollLink
@@ -116,13 +116,7 @@ export default function Home() {
         </div>
 
         <div className="flex items-center gap-x-4">
-          <a href="" className="hidden lg:flex">
-            <button className="px-4 py-3 rounded-md flex items-center gap-x-3  border-2 font-bold
-  border-black hover:bg-[#4bf765]  duration-200
-     hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] ">
-              +(94) 77 5879225
-            </button>
-          </a>
+          
 
           <Link
             href={"/meeting"}
@@ -374,7 +368,8 @@ export default function Home() {
       <footer className="bg-[#fafafa] py-10  px-6 md:px-0 md:mx-auto border-t">
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
           <h1 className="text-3xl md:text-5xl font-medium ">
-            <h1 className="text-red-700">Walkers.</h1>
+          <p className="text-red-600 font-bold font-mono">Walkers.</p>
+
             {/* <Image
               src={"/logo/logo.webp"}
               width={10000}
